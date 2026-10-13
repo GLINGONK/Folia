@@ -2,7 +2,7 @@
 
 **Tabs, favorites and window groups for Windows File Explorer.**
 
-Folia adds a modern tab bar and a favorites bar directly inside Windows File Explorer, in the spirit of the classic *Clover* extension. On Windows 11 it replaces the native Explorer tabs.
+Folia adds a modern tab bar and a favorites bar directly inside Windows File Explorer, in the spirit of the classic *Clover* extension. On Windows 11 it replaces the native Explorer tabs at the top of the window, on top of the window's Mica background; on Windows 10 the tabs sit in the title bar.
 
 ## Download
 
@@ -34,9 +34,10 @@ Get the latest installer from the **[Releases](../../releases/latest)** page: `F
 
 ### Favorites bar
 - One click to open a favorite folder; `Ctrl+click` or middle-click opens it in a new tab
-- Drag a folder onto the bar to add it, or click the star to add the current folder
-- Groups (folders of favorites) with a drop-down menu and "open all in tabs"
-- Rename, reorder and organize with a right-click
+- Drag a folder from Explorer onto the bar (or onto a group) to add it, or click the star to add the current folder
+- Groups (folders of favorites, nested groups supported) open in a drop-down panel with "open all in tabs"
+- Drag & drop any favorite: reorder the bar or a group, drop it on a group to file it, drag it back out to the bar
+- Right-click any favorite, even inside a group: open, open in new tab, rename, delete, move out to the bar
 
 ### Window groups
 - Group any application window with an Explorer window: it becomes a tab
